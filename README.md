@@ -6,37 +6,28 @@ It uses datasets containing weather features such as temperature, humidity, wind
 ## Project Workflow
 
 Data Loading & Merging
-
 All .csv weather datasets are loaded and merged using pandas and glob.
 
 ## Feature Selection
 
 Selected important features:
-
 Location, MinTemp, MaxTemp, Rainfall, Wind-related features, Humidity, Pressure, Temperature, RainToday, RainTomorrow.
 
 ## Data Preprocessing
 
 Shuffling the dataset.
-
 Encoding categorical data (Location, Wind directions, RainToday).
-
 Handling missing values with Imputer (mean strategy).
-
 Feature scaling using StandardScaler.
 
 ## Model Building (ANN)
 
 Built with Keras Sequential API:
-
 Input layer (17 features).
-
 Two hidden layers with ReLU activation.
-
 Output layer with Sigmoid activation for binary classification.
 
 Compiled with:
-
 Optimizer: Adam
 
 Loss: binary_crossentropy
@@ -69,23 +60,17 @@ keras / tensorflow
 glob
 
 Install dependencies:
-
 pip install pandas numpy scikit-learn keras tensorflow
 
 ## How to Run
 
 Place all weather dataset .csv files inside:
-
 /WeatherForcast/DataSets/
 
 
 Run the Python script:
-
 python weather_forecast_ann.py
 
 
 The script will:
-
-Preprocess data.
-Train an ANN model.
-Print the final accuracy score.
+Preprocess data, train an ANN model and print the final accuracy score.
