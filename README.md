@@ -10,7 +10,7 @@ All .csv weather datasets are loaded and merged using pandas and glob.
 
 ## Feature Selection
 
-Selected important features:
+Selected important features: <br>
 Location, MinTemp, MaxTemp, Rainfall, Wind-related features, Humidity, Pressure, Temperature, RainToday, RainTomorrow.
 
 ## Data Preprocessing
