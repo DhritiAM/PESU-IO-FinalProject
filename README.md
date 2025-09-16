@@ -44,10 +44,10 @@ Predictions made on the test set.
 Classification threshold: 0.5.
 Final accuracy score printed.
 
-Example Training Log (Accuracy ~84%)
-Epoch 1/10 - loss: 0.3758 - acc: 0.8372
-Epoch 5/10 - loss: 0.3623 - acc: 0.8437
-Epoch 10/10 - loss: 0.3592 - acc: 0.8436
+Example Training Log (Accuracy ~84%) <br>
+Epoch 1/10 - loss: 0.3758 - acc: 0.8372 <br>
+Epoch 5/10 - loss: 0.3623 - acc: 0.8437 <br>
+Epoch 10/10 - loss: 0.3592 - acc: 0.8436 <br>
 
 ## Requirements
 
