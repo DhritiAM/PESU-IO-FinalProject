@@ -15,10 +15,10 @@ Location, MinTemp, MaxTemp, Rainfall, Wind-related features, Humidity, Pressure,
 
 ## Data Preprocessing
 
-Shuffling the dataset.
-Encoding categorical data (Location, Wind directions, RainToday).
-Handling missing values with Imputer (mean strategy).
-Feature scaling using StandardScaler.
+Shuffling the dataset. <br>
+Encoding categorical data (Location, Wind directions, RainToday). <br>
+Handling missing values with Imputer (mean strategy). <br>
+Feature scaling using StandardScaler. <br>
 
 ## Model Building (ANN)
 
